@@ -1,0 +1,102 @@
+===========================
+ExecutionStack = [OpenRFile(var_f, test.in)ReadFile(var_f,var_c);Print(var_c);if var_c then ReadFile(var_f,var_c);Print(var_c) else Print(0);CloseRFile(var_f)]
+SymbolTable = []
+FileTable = {}
+Output = []
+===========================
+===========================
+ExecutionStack = [ReadFile(var_f,var_c);Print(var_c);if var_c then ReadFile(var_f,var_c);Print(var_c) else Print(0);CloseRFile(var_f)]
+SymbolTable = [var_f=1]
+FileTable = {1: test.in}
+Output = []
+===========================
+===========================
+ExecutionStack = [ReadFile(var_f,var_c)Print(var_c);if var_c then ReadFile(var_f,var_c);Print(var_c) else Print(0);CloseRFile(var_f)]
+SymbolTable = [var_f=1]
+FileTable = {1: test.in}
+Output = []
+===========================
+===========================
+ExecutionStack = [Print(var_c);if var_c then ReadFile(var_f,var_c);Print(var_c) else Print(0);CloseRFile(var_f)]
+SymbolTable = [var_f=1,var_c=15]
+FileTable = {1: test.in}
+Output = []
+===========================
+===========================
+ExecutionStack = [Print(var_c)if var_c then ReadFile(var_f,var_c);Print(var_c) else Print(0);CloseRFile(var_f)]
+SymbolTable = [var_f=1,var_c=15]
+FileTable = {1: test.in}
+Output = []
+===========================
+===========================
+ExecutionStack = [if var_c then ReadFile(var_f,var_c);Print(var_c) else Print(0);CloseRFile(var_f)]
+SymbolTable = [var_f=1,var_c=15]
+FileTable = {1: test.in}
+Output = [15]
+===========================
+===========================
+ExecutionStack = [if var_c then ReadFile(var_f,var_c);Print(var_c) else Print(0)CloseRFile(var_f)]
+SymbolTable = [var_f=1,var_c=15]
+FileTable = {1: test.in}
+Output = [15]
+===========================
+===========================
+ExecutionStack = [ReadFile(var_f,var_c);Print(var_c)CloseRFile(var_f)]
+SymbolTable = [var_f=1,var_c=15]
+FileTable = {1: test.in}
+Output = [15]
+===========================
+===========================
+ExecutionStack = [ReadFile(var_f,var_c)Print(var_c)CloseRFile(var_f)]
+SymbolTable = [var_f=1,var_c=15]
+FileTable = {1: test.in}
+Output = [15]
+===========================
+===========================
+ExecutionStack = [Print(var_c)CloseRFile(var_f)]
+SymbolTable = [var_f=1,var_c=50]
+FileTable = {1: test.in}
+Output = [15]
+===========================
+===========================
+ExecutionStack = [CloseRFile(var_f)]
+SymbolTable = [var_f=1,var_c=50]
+FileTable = {1: test.in}
+Output = [15,50]
+===========================
+===========================
+ExecutionStack = []
+SymbolTable = [var_f=1,var_c=50]
+FileTable = {}
+Output = [15,50]
+===========================
+===========================
+ExecutionStack = [a=2*3*5b=a+1;Print(b)]
+SymbolTable = []
+FileTable = {}
+Output = []
+===========================
+===========================
+ExecutionStack = [b=a+1;Print(b)]
+SymbolTable = [a=30]
+FileTable = {}
+Output = []
+===========================
+===========================
+ExecutionStack = [b=a+1Print(b)]
+SymbolTable = [a=30]
+FileTable = {}
+Output = []
+===========================
+===========================
+ExecutionStack = [Print(b)]
+SymbolTable = [a=30,b=31]
+FileTable = {}
+Output = []
+===========================
+===========================
+ExecutionStack = []
+SymbolTable = [a=30,b=31]
+FileTable = {}
+Output = [31]
+===========================

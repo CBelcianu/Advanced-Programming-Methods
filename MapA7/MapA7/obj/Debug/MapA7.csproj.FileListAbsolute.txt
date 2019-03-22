@@ -1,0 +1,7 @@
+C:\Users\Catalin\source\repos\MapA7\MapA7\obj\Debug\MapA7.csproj.CoreCompileInputs.cache
+C:\Users\Catalin\source\repos\MapA7\MapA7\bin\Debug\MapA7.exe.config
+C:\Users\Catalin\source\repos\MapA7\MapA7\bin\Debug\MapA7.exe
+C:\Users\Catalin\source\repos\MapA7\MapA7\bin\Debug\MapA7.pdb
+C:\Users\Catalin\source\repos\MapA7\MapA7\obj\Debug\MapA7.exe
+C:\Users\Catalin\source\repos\MapA7\MapA7\obj\Debug\MapA7.pdb
+C:\Users\Catalin\source\repos\MapA7\MapA7\obj\Debug\MapA7.csprojAssemblyReference.cache
