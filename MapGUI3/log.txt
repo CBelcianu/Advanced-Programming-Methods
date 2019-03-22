@@ -1,0 +1,248 @@
+===============================
+ID: 1
+ExecutionStack = [a=1; b=2; c=a?100:200; Print(c); c=(b-2)?100:200; Print(c)]
+SymbolTable = {}
+FileTable = {}
+Heap = {}
+Output = []
+===============================
+===============================
+ID: 1
+ExecutionStack = [b=2; c=a?100:200; Print(c); c=(b-2)?100:200; Print(c), a=1]
+SymbolTable = {}
+FileTable = {}
+Heap = {}
+Output = []
+===============================
+===============================
+ID: 1
+ExecutionStack = [b=2; c=a?100:200; Print(c); c=(b-2)?100:200; Print(c), a=1]
+SymbolTable = {}
+FileTable = {}
+Heap = {}
+Output = []
+===============================
+===============================
+ID: 1
+ExecutionStack = [b=2; c=a?100:200; Print(c); c=(b-2)?100:200; Print(c)]
+SymbolTable = {a=1}
+FileTable = {}
+Heap = {}
+Output = []
+===============================
+===============================
+ID: 1
+ExecutionStack = [b=2; c=a?100:200; Print(c); c=(b-2)?100:200; Print(c)]
+SymbolTable = {a=1}
+FileTable = {}
+Heap = {}
+Output = []
+===============================
+===============================
+ID: 1
+ExecutionStack = [c=a?100:200; Print(c); c=(b-2)?100:200; Print(c), b=2]
+SymbolTable = {a=1}
+FileTable = {}
+Heap = {}
+Output = []
+===============================
+===============================
+ID: 1
+ExecutionStack = [c=a?100:200; Print(c); c=(b-2)?100:200; Print(c), b=2]
+SymbolTable = {a=1}
+FileTable = {}
+Heap = {}
+Output = []
+===============================
+===============================
+ID: 1
+ExecutionStack = [c=a?100:200; Print(c); c=(b-2)?100:200; Print(c)]
+SymbolTable = {a=1, b=2}
+FileTable = {}
+Heap = {}
+Output = []
+===============================
+===============================
+ID: 1
+ExecutionStack = [c=a?100:200; Print(c); c=(b-2)?100:200; Print(c)]
+SymbolTable = {a=1, b=2}
+FileTable = {}
+Heap = {}
+Output = []
+===============================
+===============================
+ID: 1
+ExecutionStack = [Print(c); c=(b-2)?100:200; Print(c), c=a?100:200]
+SymbolTable = {a=1, b=2}
+FileTable = {}
+Heap = {}
+Output = []
+===============================
+===============================
+ID: 1
+ExecutionStack = [Print(c); c=(b-2)?100:200; Print(c), c=a?100:200]
+SymbolTable = {a=1, b=2}
+FileTable = {}
+Heap = {}
+Output = []
+===============================
+===============================
+ID: 1
+ExecutionStack = [Print(c); c=(b-2)?100:200; Print(c), If a Then c=100 Else c=200]
+SymbolTable = {a=1, b=2}
+FileTable = {}
+Heap = {}
+Output = []
+===============================
+===============================
+ID: 1
+ExecutionStack = [Print(c); c=(b-2)?100:200; Print(c), If a Then c=100 Else c=200]
+SymbolTable = {a=1, b=2}
+FileTable = {}
+Heap = {}
+Output = []
+===============================
+===============================
+ID: 1
+ExecutionStack = [Print(c); c=(b-2)?100:200; Print(c), c=100]
+SymbolTable = {a=1, b=2}
+FileTable = {}
+Heap = {}
+Output = []
+===============================
+===============================
+ID: 1
+ExecutionStack = [Print(c); c=(b-2)?100:200; Print(c), c=100]
+SymbolTable = {a=1, b=2}
+FileTable = {}
+Heap = {}
+Output = []
+===============================
+===============================
+ID: 1
+ExecutionStack = [Print(c); c=(b-2)?100:200; Print(c)]
+SymbolTable = {a=1, b=2, c=100}
+FileTable = {}
+Heap = {}
+Output = []
+===============================
+===============================
+ID: 1
+ExecutionStack = [Print(c); c=(b-2)?100:200; Print(c)]
+SymbolTable = {a=1, b=2, c=100}
+FileTable = {}
+Heap = {}
+Output = []
+===============================
+===============================
+ID: 1
+ExecutionStack = [c=(b-2)?100:200; Print(c), Print(c)]
+SymbolTable = {a=1, b=2, c=100}
+FileTable = {}
+Heap = {}
+Output = []
+===============================
+===============================
+ID: 1
+ExecutionStack = [c=(b-2)?100:200; Print(c), Print(c)]
+SymbolTable = {a=1, b=2, c=100}
+FileTable = {}
+Heap = {}
+Output = []
+===============================
+===============================
+ID: 1
+ExecutionStack = [c=(b-2)?100:200; Print(c)]
+SymbolTable = {a=1, b=2, c=100}
+FileTable = {}
+Heap = {}
+Output = [100]
+===============================
+===============================
+ID: 1
+ExecutionStack = [c=(b-2)?100:200; Print(c)]
+SymbolTable = {a=1, b=2, c=100}
+FileTable = {}
+Heap = {}
+Output = [100]
+===============================
+===============================
+ID: 1
+ExecutionStack = [Print(c), c=(b-2)?100:200]
+SymbolTable = {a=1, b=2, c=100}
+FileTable = {}
+Heap = {}
+Output = [100]
+===============================
+===============================
+ID: 1
+ExecutionStack = [Print(c), c=(b-2)?100:200]
+SymbolTable = {a=1, b=2, c=100}
+FileTable = {}
+Heap = {}
+Output = [100]
+===============================
+===============================
+ID: 1
+ExecutionStack = [Print(c), If (b-2) Then c=100 Else c=200]
+SymbolTable = {a=1, b=2, c=100}
+FileTable = {}
+Heap = {}
+Output = [100]
+===============================
+===============================
+ID: 1
+ExecutionStack = [Print(c), If (b-2) Then c=100 Else c=200]
+SymbolTable = {a=1, b=2, c=100}
+FileTable = {}
+Heap = {}
+Output = [100]
+===============================
+===============================
+ID: 1
+ExecutionStack = [Print(c), c=200]
+SymbolTable = {a=1, b=2, c=100}
+FileTable = {}
+Heap = {}
+Output = [100]
+===============================
+===============================
+ID: 1
+ExecutionStack = [Print(c), c=200]
+SymbolTable = {a=1, b=2, c=100}
+FileTable = {}
+Heap = {}
+Output = [100]
+===============================
+===============================
+ID: 1
+ExecutionStack = [Print(c)]
+SymbolTable = {a=1, b=2, c=200}
+FileTable = {}
+Heap = {}
+Output = [100]
+===============================
+===============================
+ID: 1
+ExecutionStack = [Print(c)]
+SymbolTable = {a=1, b=2, c=200}
+FileTable = {}
+Heap = {}
+Output = [100]
+===============================
+===============================
+ID: 1
+ExecutionStack = []
+SymbolTable = {a=1, b=2, c=200}
+FileTable = {}
+Heap = {}
+Output = [100, 200]
+===============================
+===============================
+ID: 1
+ExecutionStack = []
+SymbolTable = {a=1, b=2, c=200}
+FileTable = {}
+Heap = {}
+Output = [100, 200]
+===============================
